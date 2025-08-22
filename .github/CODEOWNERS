@@ -1,0 +1,34 @@
+# CODEOWNERS file for job-database-307
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/unit-devops @Armor-test/dept-reporting
+
+# Directory ownership
+/app/ @Armor-test/squad-qa @Armor-test/team-governance
+/docs/ @Armor-test/dept-reporting @Armor-test/dept-ui @Armor-test/grp-storage
+/services/ @Armor-test/squad-performance @Armor-test/squad-research
+/security/ @Armor-test/dept-notifications @Armor-test/grp-api @Armor-test/squad-research
+/db/ @Armor-test/squad-cache @Armor-test/dept-test
+/utils/ @Armor-test/squad-ux @Armor-test/team-core @Armor-test/squad-mobile
+/shared/ @Armor-test/team-reporting @Armor-test/squad-payments @Armor-test/squad-cloud
+/static/ @Armor-test/grp-payments @Armor-test/team-security @Armor-test/grp-api
+/tools/ @Armor-test/squad-apps @Armor-test/unit-test @Armor-test/team-frontend
+/data/ @Armor-test/dept-billing @Armor-test/unit-devops @Armor-test/team-core
+
+# File type ownership
+*.rb @Armor-test/dept-notifications @Armor-test/squad-mobile
+*.c @Armor-test/dept-security @Armor-test/team-reporting @Armor-test/squad-apps
+*.scss @Armor-test/team-notifications @Armor-test/squad-payments
+*.rs @Armor-test/unit-test @Armor-test/squad-search
+*.proto @Armor-test/unit-cloud @Armor-test/squad-ml
+*.ini @Armor-test/squad-ux @Armor-test/dept-notifications @Armor-test/squad-apps
+*.js @Armor-test/dept-identity @Armor-test/dept-data
+*.config @Armor-test/squad-cloud @Armor-test/dept-ui @Armor-test/unit-test
+*.properties @Armor-test/grp-payments @Armor-test/dept-logging
+*.sql @Armor-test/grp-search @Armor-test/unit-cloud @Armor-test/grp-storage
+*.gradle @Armor-test/dept-identity @Armor-test/dept-notifications
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
